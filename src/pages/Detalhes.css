@@ -1,0 +1,87 @@
+.detalhes {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.loading,
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 1rem;
+  color: #6b7280;
+}
+
+.loading-message,
+.error-message {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #2563eb;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.detalhes-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem;
+  background: #ffffff;
+  margin-bottom: 1.5rem;
+}
+
+.post-id {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
+.post-title {
+  font-size: 1.75rem;
+  margin: 0 0 1rem 0;
+  color: #111827;
+  line-height: 1.3;
+}
+
+.post-body {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #374151;
+  margin: 0;
+}
+
+.detalhes-meta {
+  font-size: 0.95rem;
+  color: #6b7280;
+}
+
+.detalhes-meta a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.detalhes-meta a:hover {
+  text-decoration: underline;
+}

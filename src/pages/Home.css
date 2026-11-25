@@ -1,0 +1,45 @@
+.home {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.loading,
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  gap: 1rem;
+  color: #6b7280;
+}
+
+.loading-message,
+.error-message {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.home-header {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.home-title {
+  font-size: 2rem;
+  margin: 0 0 0.5rem 0;
+  color: #111827;
+}
+
+.home-subtitle {
+  font-size: 1rem;
+  color: #6b7280;
+  margin: 0;
+}
+
+.posts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
